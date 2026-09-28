@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LegalEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>LegalEase</h1>
+    <p>AI-Powered Legal Document Generator</p>
+
+    <label>Document Type</label>
+
+    <select id="documentType">
+        <option>Employment Contract</option>
+        <option>Lease Agreement</option>
+        <option>NDA</option>
+    </select>
+
+    <label>Enter Details</label>
+
+    <textarea id="details"
+        placeholder="Enter your document details..."></textarea>
+
+    <button onclick="generateDocument()">
+        Generate Document
+    </button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
